@@ -22,6 +22,12 @@ namespace OOP
     {
         static void Main(string[] args)
         {
+            student st = new OOP.student();
+            st.Name = "Waheed";
+            st.age = 20;
+            st.marks = 100;
+
+            st.details();
         }
     }
 }
