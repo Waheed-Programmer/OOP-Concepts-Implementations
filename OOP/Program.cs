@@ -85,6 +85,7 @@ namespace OOP
             i.a = "C# Devloper";
             Console.WriteLine(i.a);
             Console.WriteLine(i.b);
+            Console.WriteLine(i.y);
 
             Console.Read();
 
