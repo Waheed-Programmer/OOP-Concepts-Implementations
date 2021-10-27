@@ -20,5 +20,9 @@ namespace OOP
 
         }
 
+        public string Sname(string n, string fn, string add)
+        {
+            return n + "" + fn + "Adress is " + add;
+        }
     }
 }
