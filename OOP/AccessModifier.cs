@@ -11,5 +11,6 @@ namespace OOP
         string x;
         public string y = "Waheed";
         protected string z;
+        public static string s;
     }
 }

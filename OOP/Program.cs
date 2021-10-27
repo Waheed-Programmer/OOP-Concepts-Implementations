@@ -76,6 +76,8 @@ namespace OOP
             Console.WriteLine(ac.y);
             ac.y = "Programmer";
             Console.WriteLine(ac.y);
+            AccessModifier.s = "Asp.Net";
+            Console.WriteLine(AccessModifier.s);
             Console.Read();
 
 
