@@ -87,6 +87,11 @@ namespace OOP
             Console.WriteLine(i.b);
             Console.WriteLine(i.y);
 
+
+            Pollymorphisam p = new Pollymorphisam();
+            Console.WriteLine(p.Sname("Waheed Arshad Here","Muhammad Arshad","Lahore Punjab"));
+
+
             Console.Read();
 
 
