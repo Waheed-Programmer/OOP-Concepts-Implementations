@@ -78,6 +78,14 @@ namespace OOP
             Console.WriteLine(ac.y);
             AccessModifier.s = "Asp.Net";
             Console.WriteLine(AccessModifier.s);
+
+
+            InheritClass i = new InheritClass();
+            i.b = "Welcome";
+            i.a = "C# Devloper";
+            Console.WriteLine(i.a);
+            Console.WriteLine(i.b);
+
             Console.Read();
 
 
