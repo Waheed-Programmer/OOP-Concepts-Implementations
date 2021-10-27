@@ -24,5 +24,13 @@ namespace OOP
         {
             return n + "" + fn + "Adress is " + add;
         }
+
+
+        // Method overidding
+
+        public virtual int Cal(int a, int b)
+        {
+            return a + b;
+        }
     }
 }

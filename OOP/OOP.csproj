@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AccessModifier.cs" />
     <Compile Include="InheritClass.cs" />
+    <Compile Include="Overridding.cs" />
     <Compile Include="Pollymorphisam.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
