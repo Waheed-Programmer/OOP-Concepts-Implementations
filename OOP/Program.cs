@@ -8,26 +8,80 @@ namespace OOP
 {
     class student
     {
-        public string Name;
-        public int age;
-        public int marks;
+        public void print3largest(int[] arr, int arr_size)
 
-
-        public void details()
         {
-            Console.WriteLine("Name={0}","Age={1}","Marks={2}",Name,age,marks); 
+            int i, first, second, third ,four;
+            
+
+            // There should be atleast four elements
+            if (arr_size < 4)
+            {
+                Console.WriteLine("Invalid Input");
+                return;
+            }
+            first = second = third = four = 00;
+
+            for (i = 0; i < arr_size; i++)
+            {
+                // If current element is
+                // greater than first
+                if (arr[i] > first)
+                {
+                    four = third;
+                    third = second;
+                    second = first;
+                    first = arr[i];
+                }
+
+                // If arr[i] is in between first
+                // and second then update second
+                else if (arr[i] > second)
+                {
+
+                    four = third;
+                    third = second;
+                    second = arr[i];
+                }
+
+                else if (arr[i] > third)
+                {
+                    four = third;
+                    third = arr[i];
+                }
+                else if (arr[i] > four)
+                    
+                four = arr[i];
+            }
+
+            int sum = first + second + third + four;
+            
+            Console.WriteLine("Three largest elements are " + first + " " + second + " " + third+" " +four);
+            Console.WriteLine(sum);
+            Console.ReadLine();
+
         }
+       
+       
     }
     class Program
     {
         static void Main(string[] args)
         {
-            student st = new OOP.student();
-            st.Name = "Waheed";
-            st.age = 20;
-            st.marks = 100;
+            //int[] arr = new int[] { 12, 13, 1, 10, 34, 1 };
+            //int n = arr.Length;
+            //student s = new student();
+            //s.print3largest(arr, n);
+            AccessModifier ac = new AccessModifier();
+            Console.WriteLine(ac.y);
+            ac.y = "Programmer";
+            Console.WriteLine(ac.y);
 
-            st.details();
+
+
+
         }
+
+       
     }
 }
