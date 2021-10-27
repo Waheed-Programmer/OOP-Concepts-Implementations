@@ -91,7 +91,10 @@ namespace OOP
             Pollymorphisam p = new Pollymorphisam();
             Console.WriteLine(p.Sname("Waheed Arshad Here","Muhammad Arshad","Lahore Punjab"));
 
+            Console.WriteLine(p.Cal(10, 10));
 
+            Overridding over = new Overridding();
+            Console.WriteLine(over.Cal(10, 10));
             Console.Read();
 
 
