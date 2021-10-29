@@ -25,7 +25,7 @@ namespace OOP.Polymorphisam
         }
         static void Main(string [] arg)
         {
-            WL("This is First ");
+            WL("This is First static functions call ");
             WL(4562);
             WL(4563.326);
 
