@@ -26,7 +26,7 @@ namespace OOP.Polymorphisam
         static void Main(string [] arg)
         {
             WL("This is First static functions call ");
-            WL(4562);
+            WL("My age is" ,22);
             WL(4563.326);
 
             
@@ -36,9 +36,9 @@ namespace OOP.Polymorphisam
         {
             Console.WriteLine(text);
         }
-        static void WL(int number)
+        static void WL(string name ,int number )
         {
-            Console.WriteLine(number);
+            Console.WriteLine(name +number);
         }
         static void WL(double f)
         {
