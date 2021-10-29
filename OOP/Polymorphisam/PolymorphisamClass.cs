@@ -18,12 +18,31 @@ namespace OOP.Polymorphisam
             {
                 Console.WriteLine(number);
             }
+            public static void WL(double f)
+            {
+                Console.WriteLine(Convert.ToDouble(f));
+            }
         }
         static void Main(string [] arg)
         {
-            Display.WL("This is First ");
-            Display.WL(4562);
+            WL("This is First ");
+            WL(4562);
+            WL(4563.326);
+
+            
             Console.ReadKey();
+        }
+        static void WL(string text)
+        {
+            Console.WriteLine(text);
+        }
+        static void WL(int number)
+        {
+            Console.WriteLine(number);
+        }
+        static void WL(double f)
+        {
+            Console.WriteLine(Convert.ToDouble(f));
         }
     }
 }
