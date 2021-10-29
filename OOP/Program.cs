@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static OOP.Encapsulations.Encapsulation;
 
 namespace OOP
 {
@@ -72,29 +73,34 @@ namespace OOP
             //int n = arr.Length;
             //student s = new student();
             //s.print3largest(arr, n);
-            AccessModifier ac = new AccessModifier();
-            Console.WriteLine(ac.y);
-            ac.y = "Programmer";
-            Console.WriteLine(ac.y);
-            AccessModifier.s = "Asp.Net";
-            Console.WriteLine(AccessModifier.s);
+            //AccessModifier ac = new AccessModifier();
+            //Console.WriteLine(ac.y);
+            //ac.y = "Programmer";
+            //Console.WriteLine(ac.y);
+            //AccessModifier.s = "Asp.Net";
+            //Console.WriteLine(AccessModifier.s);
 
 
-            InheritClass i = new InheritClass();
-            i.b = "Welcome";
-            i.a = "C# Devloper";
-            Console.WriteLine(i.a);
-            Console.WriteLine(i.b);
-            Console.WriteLine(i.y);
+            //InheritClass i = new InheritClass();
+            //i.b = "Welcome";
+            //i.a = "C# Devloper";
+            //Console.WriteLine(i.a);
+            //Console.WriteLine(i.b);
+            //Console.WriteLine(i.y);
 
 
-            Pollymorphisam p = new Pollymorphisam();
-            Console.WriteLine(p.Sname("Waheed Arshad Here","Muhammad Arshad","Lahore Punjab"));
+            //Pollymorphisam p = new Pollymorphisam();
+            //Console.WriteLine(p.Sname("Waheed Arshad Here","Muhammad Arshad","Lahore Punjab"));
 
-            Console.WriteLine(p.Cal(10, 10));
+            //Console.WriteLine(p.Cal(10, 10));
 
-            Overridding over = new Overridding();
-            Console.WriteLine(over.Cal(10, 10));
+            //Overridding over = new Overridding();
+            //Console.WriteLine(over.Cal(10, 10));
+
+            Banksystem bs = new Banksystem();
+            bs.Balance();
+            bs.WithDraw();
+            bs.Deposit();
             Console.Read();
 
 

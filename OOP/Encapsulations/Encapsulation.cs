@@ -8,7 +8,7 @@ namespace OOP.Encapsulations
 {
     class Encapsulation
     {
-        class Banksystem
+       public class Banksystem
         {
             public double balance;
             public double deposit;
@@ -38,14 +38,6 @@ namespace OOP.Encapsulations
                 return balance;
             }
         }
-        static void Main(string [] arg)
-        {
-            Banksystem bs = new Banksystem();
-            bs.Balance();
-            bs.WithDraw();
-            bs.Deposit();
-
-            Console.ReadKey();
-        }
+       
     }
 }
