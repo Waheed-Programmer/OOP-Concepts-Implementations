@@ -10,9 +10,9 @@ namespace OOP.Encapsulations
     {
        public class Banksystem
         {
-            public double balance;
-            public double deposit;
-            public double withdraw;
+            private double balance;
+            private double deposit;
+            private double withdraw;
 
             public double Balance()
             {

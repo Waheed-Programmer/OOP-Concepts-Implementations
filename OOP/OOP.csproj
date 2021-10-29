@@ -48,6 +48,7 @@
     <Compile Include="InheritClass.cs" />
     <Compile Include="Overridding.cs" />
     <Compile Include="Pollymorphisam.cs" />
+    <Compile Include="Polymorphisam\PolymorphisamClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
