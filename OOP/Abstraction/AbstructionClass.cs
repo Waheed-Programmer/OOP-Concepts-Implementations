@@ -8,10 +8,18 @@ namespace OOP.Abstraction
 {
     public abstract class DepartSlary
     {
+        public abstract void Display();
+        public void Display1()
+        {
 
+        }
     }
     class Worker : DepartSlary
     {
+        public override void Display()
+        {
+            throw new NotImplementedException();
+        }
 
     }
     class AbstructionClass
