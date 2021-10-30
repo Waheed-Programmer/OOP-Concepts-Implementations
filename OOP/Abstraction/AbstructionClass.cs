@@ -25,7 +25,7 @@ namespace OOP.Abstraction
 
             }
             salry = salry + bonus;
-            Console.WriteLine("bonus: { 0} Overtime {1}", bonus, overtime);
+            Console.WriteLine("bonus: { 0} Overtime :{1}, bonus, overtime");
 
         }
     }
@@ -34,9 +34,9 @@ namespace OOP.Abstraction
         public override void Display()
         {
             Console.WriteLine("----------------------");
-            Console.WriteLine("Name{0} FixTime:{1} Perhour{ 3} ", name, fixtime, perhour);
+            Console.WriteLine("Name:{0} FixTime:{1} Perhour:{2} , name, fixtime, perhour");
             Console.WriteLine("----------------------");
-            Console.WriteLine("Total salary of {0}:{1}",name,salry);
+            Console.WriteLine("Total salary of {0}:{1},name,salry");
 
 
         }
