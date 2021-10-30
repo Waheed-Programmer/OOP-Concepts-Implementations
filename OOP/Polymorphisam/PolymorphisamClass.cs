@@ -23,13 +23,13 @@ namespace OOP.Polymorphisam
                 Console.WriteLine(Convert.ToDouble(f));
             }
         }
-        static void Main(string [] arg)
-        {
-            WL("This is First static functions call ");
-            WL("My age is" ,22);
-            WL(4563.326);            
-            Console.ReadKey();
-        }
+        //static void Main(string [] arg)
+        //{
+        //    WL("This is First static functions call ");
+        //    WL("My age is" ,22);
+        //    WL(4563.326);            
+        //    Console.ReadKey();
+        //}
         static void WL(string text)
         {
             Console.WriteLine(text);
