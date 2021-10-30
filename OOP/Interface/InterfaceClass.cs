@@ -10,14 +10,23 @@ namespace OOP.Interface
         void sale();
     
     }
+    interface IPurchase
+    {
+        void purchase();
 
-    class Acount : ISale
+    }
+
+    class Acount : ISale,IPurchase
     {
         public void sale()
         {
-            Console.WriteLine("This is interface method in derived class");
+            Console.WriteLine("This is Sale Interface");
+            Console.WriteLine("-------------------------");
         }
-
+        public void purchase()
+        {
+            Console.WriteLine("This is purchase interface ");
+        }
     }
 
 
@@ -28,6 +37,7 @@ namespace OOP.Interface
         {
             Acount a = new Acount();
             a.sale();
+            a.purchase();
             Console.ReadKey();
 
         }
