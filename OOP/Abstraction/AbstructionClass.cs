@@ -51,7 +51,12 @@ namespace OOP.Abstraction
             w.name = "Waheed Arshad";
             w.SalaryCounter(12, 20);
             w.Display();
-           
+
+            Worker m = new Worker();
+            m.name = "Waheed Arshad";
+            m.perhour = 212;
+            m.SalaryCounter(12, 20);
+            m.Display();
             Console.ReadKey();
 
         }
