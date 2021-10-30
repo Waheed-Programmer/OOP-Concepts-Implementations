@@ -14,7 +14,8 @@ namespace OOP.Abstraction
         public abstract void Display();
         public void SalaryCounter( int bonus, int overtime)
         {
-            Console.WriteLine("This is salry sections");
+            Console.WriteLine("=============Salary Department===============>");
+
 
             salry = perhour * fixtime;
             overtime = fixtime + overtime;
@@ -25,7 +26,7 @@ namespace OOP.Abstraction
 
             }
             salry = salry + bonus;
-            Console.WriteLine("bonus: { 0} Overtime :{1}, bonus, overtime");
+            Console.WriteLine("bonus: {0} Overtime :{1}", bonus, overtime);
 
         }
     }
@@ -33,10 +34,10 @@ namespace OOP.Abstraction
     {
         public override void Display()
         {
-            Console.WriteLine("----------------------");
-            Console.WriteLine("Name:{0} FixTime:{1} Perhour:{2} , name, fixtime, perhour");
-            Console.WriteLine("----------------------");
-            Console.WriteLine("Total salary of {0}:{1},name,salry");
+            Console.WriteLine("============================>");
+            Console.WriteLine("Name:{0} FixTime:{1} Perhour:{2}" , name, fixtime, perhour);
+            Console.WriteLine("============================>");
+            Console.WriteLine("Total salary of {0}:{1}",name,salry);
 
 
         }
@@ -47,8 +48,10 @@ namespace OOP.Abstraction
         static void Main (string [] arg)
         {
             Worker w = new Worker();
+            w.name = "Waheed Arshad";
+            w.SalaryCounter(12, 20);
             w.Display();
-            w.SalaryCounter(12,20);
+           
             Console.ReadKey();
 
         }
