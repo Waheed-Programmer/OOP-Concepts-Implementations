@@ -47,6 +47,7 @@
     <Compile Include="AccessModifier.cs" />
     <Compile Include="Encapsulations\Encapsulation.cs" />
     <Compile Include="InheritClass.cs" />
+    <Compile Include="Interface\InterfaceClass.cs" />
     <Compile Include="Overridding.cs" />
     <Compile Include="Pollymorphisam.cs" />
     <Compile Include="Polymorphisam\PolymorphisamClass.cs" />
