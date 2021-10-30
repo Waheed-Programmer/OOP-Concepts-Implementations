@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstraction\AbstructionClass.cs" />
     <Compile Include="AccessModifier.cs" />
     <Compile Include="Encapsulations\Encapsulation.cs" />
     <Compile Include="InheritClass.cs" />
