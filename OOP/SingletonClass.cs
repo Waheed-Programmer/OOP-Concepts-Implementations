@@ -26,6 +26,32 @@ namespace OOP
             }
             return myobject;
         }
+        public void Show()
+        {
+            Console.WriteLine("DBManager: Show()");
+        }
 
+        public void SetI(int val)
+        {
+            i = val;
+        }
+
+        public void ShowI()
+        {
+            Console.WriteLine("Get Integer is "+i);
+        }
+        static void Main(string[] args)
+        {
+
+            DBManager db;
+            db = DBManager.GetInstance();
+            db.Show();
+            db.SetI(23);
+            db.ShowI();
+            Console.WriteLine();
+            Console.ReadKey();
+
+                
+        }
     }
 }
