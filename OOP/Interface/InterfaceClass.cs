@@ -22,7 +22,7 @@ namespace OOP.Interface
 
         public void sale(string name , int price)
         {
-            Console.WriteLine("Name: {0}\n      Price{1}",name,price);
+            Console.WriteLine("Name: {0}\n Price{1}",name,price);
 
             balance = balance + price;
             Console.WriteLine("Balance: {0}", balance);

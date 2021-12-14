@@ -43,20 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstraction\AbstructionClass.cs" />
     <Compile Include="AccessModifier.cs" />
-    <Compile Include="Encapsulations\Encapsulation.cs" />
-    <Compile Include="InheritClass.cs" />
-    <Compile Include="Interface\InterfaceClass.cs" />
-    <Compile Include="Overridding.cs" />
-    <Compile Include="Pollymorphisam.cs" />
-    <Compile Include="Polymorphisam\PolymorphisamClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Abstraction\" />
+    <Folder Include="Encapsulations\" />
+    <Folder Include="Interface\" />
+    <Folder Include="Polymorphisam\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
