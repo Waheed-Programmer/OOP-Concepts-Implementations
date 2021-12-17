@@ -12,5 +12,7 @@ namespace OOP
         public string y = "Waheed";
         protected string z;
         public static string s;
+        dynamic a=56;
+       
     }
 }
