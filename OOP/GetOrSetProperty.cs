@@ -34,7 +34,10 @@ namespace OOP
     {
         public static void Main(string[] arg)
         {
-
+            Student s = new Student();
+            s.StdId = 1001;
+            Console.WriteLine(s.StdId);
+            Console.ReadKey();
         }
     }
 }
