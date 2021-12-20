@@ -9,8 +9,26 @@ namespace OOP
     class Student
     {
         private int _Id;
-        private string name;
+        private string _name;
 
+        public int StdId
+        {
+            get
+            {
+                return this._Id;
+            }
+            set
+            {
+                if (value <= 0)
+                {
+                    Console.WriteLine("Negative value and 0 not allowed");
+                }
+                else
+                {
+                    this._Id = value;
+                }
+            }
+        }
         public int StdId
         {
             get
