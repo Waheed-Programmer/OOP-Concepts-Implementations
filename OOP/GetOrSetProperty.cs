@@ -29,21 +29,21 @@ namespace OOP
                 }
             }
         }
-        public int StdId
+        public string name
         {
             get
             {
-                return this._Id;
+                return this._name;
             }
             set
             {
-                if (value <= 0)
+                if (!string.IsNullOrEmpty(value))
                 {
-                    Console.WriteLine("Negative value and 0 not allowed");
+                    Console.WriteLine("Invalid string are not allow");
                 }
                 else
                 {
-                    this._Id = value;
+                    this._name = value;
                 }
             }
         }
