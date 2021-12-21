@@ -37,7 +37,7 @@ namespace OOP
             }
             set
             {
-                if (!string.IsNullOrEmpty(value))
+                if (string.IsNullOrEmpty(value))
                 {
                     Console.WriteLine("Invalid string are not allow");
                 }
@@ -54,6 +54,8 @@ namespace OOP
         {
             Student s = new Student();
             s.StdId = 1001;
+            s.name = "Waheed Arshad";
+            Console.WriteLine(s.name);
             Console.WriteLine(s.StdId);
             Console.ReadKey();
         }
