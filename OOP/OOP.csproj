@@ -43,8 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccessModifier.cs" />
-    <Compile Include="GetOrSetProperty.cs" />
+    <Compile Include="Interface\Implementations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -54,7 +53,6 @@
   <ItemGroup>
     <Folder Include="Abstraction\" />
     <Folder Include="Encapsulations\" />
-    <Folder Include="Interface\" />
     <Folder Include="Polymorphisam\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
