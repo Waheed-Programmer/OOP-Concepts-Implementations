@@ -43,10 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Inheritance\Cloth.cs" />
-    <Compile Include="Inheritance\Furniture.cs" />
-    <Compile Include="Inheritance\Main.cs" />
-    <Compile Include="Inheritance\Product.cs" />
+    <Compile Include="Abstraction\AbstImpliment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -54,8 +51,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Abstraction\" />
     <Folder Include="Encapsulations\" />
+    <Folder Include="Inheritance\" />
     <Folder Include="Interface\" />
     <Folder Include="Polymorphisam\" />
   </ItemGroup>
