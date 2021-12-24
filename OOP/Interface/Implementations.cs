@@ -28,6 +28,18 @@ namespace OOP.Interface
             result1 = a + b;
             return result1;
         }
+        int result2;
+        public int sub(int c, int d)
+        {
+            result2 = c - d;
+            return result2;
+        }
+        int result3;
+        public int mul(int e, int f)
+        {
+            result3 = e * f;
+            return result3;
+        }
     }
 
 
