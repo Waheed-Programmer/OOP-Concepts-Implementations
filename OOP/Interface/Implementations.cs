@@ -61,6 +61,7 @@ namespace OOP.Interface
             Console.WriteLine("Additions of \n" +c.result1);
             Console.WriteLine("Sub of \n" + c.result2);
             Console.WriteLine("Mul of \n" + c.result3);
+            Console.ReadKey();
 
         }
     }

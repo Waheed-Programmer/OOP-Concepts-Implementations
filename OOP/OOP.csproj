@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interface\Implementations.cs" />
+    <Compile Include="Inheritance\Cloth.cs" />
+    <Compile Include="Inheritance\Furniture.cs" />
+    <Compile Include="Inheritance\Main.cs" />
+    <Compile Include="Inheritance\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -53,6 +56,7 @@
   <ItemGroup>
     <Folder Include="Abstraction\" />
     <Folder Include="Encapsulations\" />
+    <Folder Include="Interface\" />
     <Folder Include="Polymorphisam\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
