@@ -33,7 +33,9 @@ namespace OOP.Abstraction
             s = new Rectangular();
             s.draw();
 
-
+            s = new Triangle();
+            s.draw();
+            Console.ReadKey();
 
 
         }
