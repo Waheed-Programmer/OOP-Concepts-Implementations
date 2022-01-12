@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LinkList\Middle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -55,6 +54,7 @@
     <Folder Include="Encapsulations\" />
     <Folder Include="Inheritance\" />
     <Folder Include="Interface\" />
+    <Folder Include="LinkList\" />
     <Folder Include="Polymorphisam\" />
     <Folder Include="Stack And Queue\" />
   </ItemGroup>

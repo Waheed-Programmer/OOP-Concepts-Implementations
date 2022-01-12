@@ -20,7 +20,12 @@ namespace OOP.Interface
         int mul(int e, int f);
     }
 
-    class caluclation: calc1,calc2,calc3
+    interface calc4
+    {
+        int divid(int g, int h);
+    }
+
+    class caluclation: calc1,calc2,calc3,calc4
     {
         public int result1;
         public int add(int a, int b)
@@ -40,6 +45,13 @@ namespace OOP.Interface
             result3 = e * f;
             return result3;
         }
+
+        public int result4;
+        public int divid(int g, int h)
+        {
+            result4 = g / h;
+            return result4;
+        }
     }
 
 
@@ -52,15 +64,18 @@ namespace OOP.Interface
 
     class Implementations
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             caluclation c = new caluclation();
             c.add(5, 9);
             c.sub(9, 5);
             c.mul(6, 6);
+            c.divid(100, 50);
             Console.WriteLine("Additions of \n" +c.result1);
             Console.WriteLine("Sub of \n" + c.result2);
             Console.WriteLine("Mul of \n" + c.result3);
+            Console.WriteLine("Divid of \n" + c.result4);
+
             Console.ReadKey();
 
         }
