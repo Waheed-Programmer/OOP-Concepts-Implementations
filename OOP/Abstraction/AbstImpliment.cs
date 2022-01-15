@@ -8,7 +8,7 @@ namespace OOP.Abstraction
 {
     public abstract class shape
     {
-        public abstract void draw();
+        public virtual void draw();
     }
     class Rectangular : shape
     {
