@@ -55,7 +55,6 @@
     <Folder Include="Encapsulations\" />
     <Folder Include="Inheritance\" />
     <Folder Include="Interface\" />
-    <Folder Include="LinkList\" />
     <Folder Include="Polymorphisam\" />
     <Folder Include="Stack And Queue\" />
   </ItemGroup>
